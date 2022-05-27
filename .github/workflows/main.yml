@@ -9,7 +9,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - id: customerRepo
-        uses: rogeruiz22/odoafRepo-friday27-950@master
+        uses: rogeruiz22/odoafRepo-friday27-950/action.yml@master
         with:
           who-to-greet: "Incubator Team"
           comando: "mvn test"
