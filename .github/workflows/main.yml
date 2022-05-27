@@ -11,8 +11,5 @@ jobs:
       - id: customerRepo
         uses: rogeruiz22/odoafRepo-friday27-950@master
         with:
-          who-to-greet: "Incubator Team"
+          who-to-greet: "Incubator"
           comando: "mvn test"
-
-      - run: echo hovno ${{ steps.customerRepo.outputs.hovno }}
-        shell: bash
