@@ -11,7 +11,7 @@ jobs:
       - id: customerRepo
         uses: rogeruiz22/odoafRepo-friday27-950@master
         with:
-          who-to-greet: "Incubator Tem !!!"
+          who-to-greet: "roger"
 
       - run: echo output-variable ${{ steps.customerRepo.outputs.output-variable }}
         shell: bash
