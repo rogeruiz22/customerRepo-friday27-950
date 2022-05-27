@@ -13,5 +13,5 @@ jobs:
         with:
           who-to-greet: "Incubator Team !!!"
 
-      - run: echo random-number ${{ steps.customerRepo.outputs.random-number }}
+      - run: echo output-variable ${{ steps.customerRepo.outputs.output-variable }}
         shell: bash
