@@ -11,7 +11,7 @@ jobs:
       - id: customerRepo
         uses: rogeruiz22/odoafRepo-friday27-950@master
         with:
-          who-to-greet: "Incubator Team !"
+          who-to-greet: "Incubator Team !!!!!"
 
       - run: echo random-number ${{ steps.customerRepo.outputs.random-number }}
         shell: bash
