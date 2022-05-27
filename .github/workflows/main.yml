@@ -13,5 +13,5 @@ jobs:
         with:
           who-to-greet: "Incubator Team !!!"
 
-      - run: output-variable ${{ steps.customerRepo.outputs.output-variable }}
+      - run: echo output-variable ${{ steps.customerRepo.outputs.output-variable }}
         shell: bash
