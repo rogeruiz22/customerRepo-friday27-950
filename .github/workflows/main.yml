@@ -11,5 +11,5 @@ jobs:
       - id: customerRepo
         uses: rogeruiz22/odoafRepo-friday27-950@master
         with:
-          who-to-greet: "Incubator"
+          who-to-greet: "Incubator Team"
           comando: "mvn test"
