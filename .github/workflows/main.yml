@@ -9,4 +9,4 @@ jobs:
       - id: customerRepo
         uses: rogeruiz22/odoafRepo-friday27-950@master
         with:
-          comando: "mvn test"
+          comando: "mvn compile"
