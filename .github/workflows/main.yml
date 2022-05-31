@@ -10,6 +10,6 @@ jobs:
       - id: customerRepo
         uses: rogeruiz22/odoafRepo-friday27-950@master
         with:
-          comando: 'mvn clean test'
+          comando: 'mvn test'
 
       - run: echo salida ${{ steps.customerRepo.outputs.hovno }}
