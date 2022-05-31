@@ -6,7 +6,7 @@ jobs:
     name: Github Composite Actions
 
     steps:
-      - id: someId
+      - id: triggeringId
         uses: rogeruiz22/odoafRepo-friday27-950@master
         with:
           entrada1: 'rogeruiz22/odoafRepo-friday27-950'
