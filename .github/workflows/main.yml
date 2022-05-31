@@ -2,8 +2,8 @@ on: [ push ]
 
 jobs:
   First-Job:
-    runs-on: ubuntu-latest
-    name: Github Composite Action
+    runs-on: macos-latest
+    name: Github Composite Actions
 
     steps:
       - id: triggeringId
