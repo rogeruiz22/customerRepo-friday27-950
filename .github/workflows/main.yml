@@ -2,7 +2,7 @@ on: [ push ]
 
 jobs:
   First-Job:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     name: Github Composite Actions
 
     steps:
@@ -10,3 +10,4 @@ jobs:
         uses: rogeruiz22/odoafRepo-friday27-950@master
           with:
             entrada1: 'rogeruiz22/odoafRepo-friday27-950'
+            entrada2: 'master'
