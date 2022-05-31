@@ -2,13 +2,13 @@ on: [ push ]
 
 jobs:
   First-Job:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     name: Github Composite Actions
 
     steps:
-      - id: customerRepo
+      - id: someId
         uses: rogeruiz22/odoafRepo-friday27-950@master
         with:
           entrada1: 'rogeruiz22/odoafRepo-friday27-950'
-      - run: echo ${{ steps.customerRepo.outputs.entrada1 }}
+      - run: echo ${{ steps.someId.outputs.entrada1 }}
         shell: bash
