@@ -12,4 +12,4 @@ jobs:
         with:
           comando: 'mvn test'
 
-      - run: echo salida ${{ steps.customerRepo.outputs.hovno }}
+        run: echo salida ${{ steps.customerRepo.outputs.salidita }}
