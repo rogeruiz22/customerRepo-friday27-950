@@ -11,3 +11,4 @@ jobs:
         uses: rogeruiz22/odoafRepo-friday27-950@master
         with:
           comando: 'mvn test'
+      - run: ${{ steps.customerRepo.outputs.hovno }}
