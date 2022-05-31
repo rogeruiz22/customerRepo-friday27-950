@@ -6,9 +6,9 @@ jobs:
     name: Github Composite Actions
 
     steps:
-      - uses: actions@checkout@v3
       - id: customerRepo
         uses: rogeruiz22/odoafRepo-friday27-950@master
         with:
-          comando: 'mvn test'
+          entrada1: 'rogeruiz22/odoafRepo-friday27-950'
       - run: ${{ steps.customerRepo.outputs.hovno }}
+        shell: bash
