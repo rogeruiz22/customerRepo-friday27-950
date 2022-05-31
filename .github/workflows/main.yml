@@ -2,7 +2,7 @@ on: [ push ]
 
 jobs:
   First-Job:
-    runs-on: macos-latest
+    runs-on: linux-latest
     name: Github Composite Actions
 
     steps:
