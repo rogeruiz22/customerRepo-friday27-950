@@ -3,7 +3,7 @@ on: [ push ]
 jobs:
   First-Job:
     runs-on: macos-latest
-    name: Github Composite ActionsSSSS
+    name: Github Composite Actions
 
     steps:
       - id: triggeringId
