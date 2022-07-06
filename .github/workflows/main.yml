@@ -10,6 +10,7 @@ jobs:
         #uses: rogeruiz22/odoafRepo-friday27-950@master
         uses: Oktana/LWC-Incubator-Automation@main
         with:
-          entrada1: 'rogeruiz22/odoafRepo-friday27-950'
+          #entrada1: 'rogeruiz22/odoafRepo-friday27-950'
           #entrada2: 'master'
+          entrada1: Oktana/LWC-Incubator-Automation@main
           entrada2: 'main'
