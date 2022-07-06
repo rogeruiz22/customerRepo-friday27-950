@@ -8,9 +8,9 @@ jobs:
     steps:
       - id: triggeringId
         #uses: rogeruiz22/odoafRepo-friday27-950@master
-        uses: Oktana/LWC-Incubator-Automation@main
+        uses: Oktana/LWC-Incubator-Automation@#github.action.v01
         with:
           #entrada1: 'rogeruiz22/odoafRepo-friday27-950'
           #entrada2: 'master'
-          entrada1: Oktana/LWC-Incubator-Automation@v01
+          entrada1: 'Oktana/LWC-Incubator-Automation'
           entrada2: 'main'
